@@ -23,13 +23,13 @@ pyautogui.press('enter')
 time.sleep(5)
 
 for i in range (2):
-    pyautogui.press('tab', interval=0.1)
+    pyautogui.press('tab', interval=0.01)
     
-pyautogui.write('', interval=0.1)
+pyautogui.write('', interval=0.01)
 time.sleep(1)
 pyautogui.press('tab')
 
-pyautogui.write('', interval=0.1)
+pyautogui.write('', interval=0.01)
 time.sleep(1)   
 pyautogui.press('enter')
 
